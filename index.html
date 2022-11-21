@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2c295caf8d.js" crossorigin="anonymous"></script>
     <link rel="icon" href="./IconoPasionaria2.ico">
     <link rel="stylesheet" href="./style.css">
@@ -19,10 +20,10 @@
       <input type="checkbox" class="nav-checkbox" id="nav-checkbox">
       <nav>
             <ul>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>
             </ul>
       </nav>
       <label for="nav-checkbox" class="nav-checkbox-label"><i class="fa-solid fa-bars"></i></label>
@@ -31,46 +32,110 @@
 
       </div>
     </header>
- 
 
-    <main>
-        <div class="mainImgContainer">
-            <div class="textContainer" >
-                <p class="mainText" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quis tenetur vel repr</p>
-            </div>
-        </div>
+    <main id="inicio">
+
+      <div>
+        <img src="./Leonitis3.jpg" alt="Nosotros">
+        <h2>Un vivero dedicado a la distribución de plantas autoctonas argentinas</h2> 
+      </div>
+
+      <div class="servicios">
+
+        <div class="servCol"><p><i class="fa-solid fa-truck"></i>ENVIOS GRATIS CABA<br><br><span>a partir de $10000</span></p></div>
+
+        <div class="servCol colMedio"><p><i class="fa-solid fa-tag"></i>10% DE DESCUENTO<br><br><span>en efectivo o transferencia</p></span></div>
+
+        <div class="servCol"><p><a><i class="fa-brands fa-whatsapp icono-whatsapp"></i></a>PREGUNTANOS<br><br><span>te ayudamos a elegir el mejor producto para vos</p></span></div>
+
+      </div>
+
     </main>
-    
-    <section class="productos">
 
-        <div><img src="./" alt=""></div>
-        <div><img src="./" alt=""></div>
-        <div><img src="./" alt="" ></div>
+    <section id="productos">
+
+        <div class="card">
+          <img src="./Asclepia.jpg" class="card-img-top" alt="Asclepia Curassavica">
+          <div class="card-body">
+            <h3>Asclepia Curassavica</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="botonContainer"><a class="botonTienda" href="https:\\www.mercadolibre.com.ar">Ver en tienda</a></div>
+          </div>
+        </div>  
+
+        <div class="card">
+          <img src="./Pasionaria.jpg" class="card-img-top" alt="Pasionaria Roja">
+          <div class="card-body">
+            <h3>Passiflora Caerulea</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="botonContainer"><a class="botonTienda" href="https:\\www.mercadolibre.com.ar">Ver en tienda</a></div>
+          </div>
+        </div> 
+
+        <div class="card">
+          <img class="img-fluid" src="./Nosecuantus.png" class="card-img-top" alt="Yoque Se">
+          <div class="card-body">
+            <h3>Nombre De La Planta</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="botonContainer"><a class="botonTienda" href="https:\\www.mercadolibre.com.ar">Ver en tienda</a></div>
+          </div>
+        </div> 
+
+        <div class="card">
+          <img src="./Ceibo (1).png" class="card-img-top" alt="Ceibo">
+          <div class="card-body">
+            <h3>Nombre De La Planta</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="botonContainer"><a class="botonTienda" href="https:\\www.mercadolibre.com.ar">Ver en tienda</a></div>
+          </div>
+        </div> 
+
+        <div class="card">
+          <img src="./" class="card-img-top" alt="Yoque Se">
+          <div class="card-body">
+          <h3>Nombre De La Planta</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="botonContainer"><a class="botonTienda" href="https:\\www.mercadolibre.com.ar">Ver en tienda</a></div>
+          </div>
+        </div> 
+
+        <div class="card">
+          <img src="./" class="card-img-top" alt="Yoque Se">
+          <div class="card-body">
+          <h3>Nombre De La Planta</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="botonContainer"><a class="botonTienda" href="https:\\www.mercadolibre.com.ar">Ver en tienda</a></div>
+          </div>
+        </div> 
 
     </section>
 
-
-
-    <footer class="footer">
+    <footer id="contacto" class="footer">
         <div class="footerDiv">
-          <p>Copyright© <span class="spanFooter"> El Jardin Nativo</span>, todos los derechos reservados</p>
+          <div>
+            <ul class="redes">
+              <li>REDES SOCIALES</li>
+              <li><a href="https:\\www.facebook.com"><i class="icono-redes fa-brands fa-facebook"></i></a><a href="https:\\www.instagram.com"><i class="icono-redes fa-brands fa-instagram"></i></a></li>
+            </ul>
+          </div>
         
           <div class="contacto">
+      
             <ul class="contactList">
-                <li><i class="fa-brands fa-whatsapp"></i><p>15 12354321</p></li>
-                <li><a class="boton-contacto" href=""><i class="fa-solid fa-location-dot"></i> Calle Verdadera 321</a></li>
+                <li><h5>CONTACTO</h5></li>
+                <li><p><i class="icono-contacto fa-brands fa-whatsapp"></i> 15 12354321</p></li>
+                <li><a class="boton-contacto" href=""><i class="icono-contacto fa-solid fa-location-dot"></i> Calle Verdadera 321</a></li>
+                <li><p><i class="icono-contacto fa-solid fa-at"></i> jardinnativo@gmail.com</p></li>
             </ul>
           </div>
 
-          <div>
-            <ul class="redes">
-              <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-              <li><a href=""><i class="icono fa-brands fa-instagram"></i></a></li>
-            </ul>
+          <div class="copyright">
+          <p>Copyright© <span class="spanFooter"> El Jardin Nativo</span>, todos los derechos reservados.</p>
           </div>
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 
 </html>
