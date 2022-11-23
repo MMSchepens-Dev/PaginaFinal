@@ -1,7 +1,7 @@
 
 :root {
     --violeta: rgba(91, 2, 233, 0.804);
-    --violetaDos: rgb(69, 2, 179);
+    --violetaDos: rgb(99, 30, 210);
 }
 
 *{
@@ -121,10 +121,21 @@ main div h2 {
 }
 
 main div img {
-    width: 70%; 
+    width: 80%; 
     max-width: 800px;
     border: 3px outset rgba(121, 174, 58, 0.563);
     margin: 110px auto 85px;
+}
+
+#nosotros {
+    background: rgba(255, 255, 255, 0.619);
+    min-height: 150px;
+    width: 60%;
+    padding: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto 85px;
+    border-radius: 10px;
 }
 
 .servicios {
@@ -160,7 +171,7 @@ main div img {
 
 .fa-truck {
     position: absolute;
-    left: -18px;
+    left: -25px;
     top: 5px;
     margin: 10px;
     color: black;
@@ -168,7 +179,7 @@ main div img {
 
 .fa-tag {
     position: absolute;
-    left: 0px;
+    left: 15px;
     top: 5px;
     margin: 10px;
     color: cornflowerblue;
@@ -176,7 +187,7 @@ main div img {
 
 .icono-whatsapp {
     position: absolute;
-    left: -10px;
+    left: -15px;
     top: 5px;
     margin: 10px;
     color: rgb(1, 193, 0);
@@ -190,7 +201,6 @@ main div img {
     margin: 0 30px 100px 30px;
     gap: 30px;
     row-gap: 40px;
-    
 }
 
 .card img {
@@ -204,7 +214,6 @@ main div img {
     outline-color: var(--violetaDos);
     color: rgba(255, 255, 255, 0.897);
     margin: 0 10px;
-    
 }
 
 .botonContainer{
@@ -337,15 +346,24 @@ main div img {
     }
     
     main div h2 {
-        top: 27%;
+        top: 35%;
         text-align: center;
         width: 85%;
         font-size: 49px;
         left: 10%;
     }
 
+    #nosotros {
+        width:95%;
+    }
+
     .servicios {
-        border-radius: 0;
+        flex-direction: column;
+        width:60%;
+    }
+
+    .colMedio {
+        box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.663), 0 3px 0 0 rgba(0, 0, 0, 0.663);
     }
 
     .footerDiv {
