@@ -18,7 +18,7 @@
     <header>
       <h1>El Jardin Nativo <img src="./IconoPasionaria2.png" alt="pasionaria" class="logo"></h1>
       <input type="checkbox" class="nav-checkbox" id="nav-checkbox">
-      <nav>
+      <nav class="navbar-fixed-top">
             <ul>
                 <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#productos">Productos</a></li>
@@ -31,18 +31,49 @@
 
     <main id="inicio">
 
-      <div>
-        <img src="./Leonitis3.jpg" alt="Nosotros">
-        <h2>PLANTAS AUTOCTONAS ARGENTINAS</h2> 
-      </div>
-
       <article id="nosotros">
-        <p>Somos una empresa dedicada a la reproducción y distribución de plantas nativas de Argentina, resaltando la importancia de su cultivo para los polinizadores,
-        cuya actividad es indispensable para nuestro ecosistema.<br><br>
-        Las flores de las plantas que comercializamos atraen a mariposas, abejas y colibries, entre otros animales encargados de garantizar la multiplicacion de la vida y diversidad genética.
+        <p>Somos un vivero dedicado a cuidar la la multiplicacion de la vida y diversidad genética de plantas autóctonas de Argentina.
         </p>
       </article>
 
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./OrugasBordeOro.jpg" class="carousel-img d-block w-100" alt="Orugas">
+            <div class="carousel-caption d-md-block">
+              <p>Orugas de mariposa borde de oro, alimentandose de una Aristolochia.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./PhysalisFruto.jpg" class="carousel-img d-block w-100" alt="Frutos">
+            <div class="carousel-caption d-md-block">
+              <p>Los frutos de Physalis Peruviana son dulces y tienen mucha vitamina C.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./CicloMonarca.jpg" class="carousel-img d-block w-100" alt="Ciclo mariposa monarca">
+            <div class="carousel-caption d-md-block">
+              <h5>Ciclo de mariposa monarca</h5>
+              <p>Sus orugas se alimentan de Asclepias</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
       <div class="servicios">
 
         <div class="servCol"><p><i class="fa-solid fa-truck"></i>ENVIOS GRATIS CABA<br><br><span>a partir de $10000</span></p></div>
@@ -58,7 +89,7 @@
     <section id="productos">
 
         <div class="card">
-          <img src="./Asclepia.jpg" class="card-img-top" alt="Asclepia Curassavica">
+          <img title="Asclepia Curassavica" src="./Asclepia.jpg" class="card-img-top" alt="Asclepia Curassavica">
           <div class="card-body">
             <h3>Asclepia Curassavica</h3>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -67,7 +98,7 @@
         </div>  
 
         <div class="card">
-          <img src="./Pasionaria.jpg" class="card-img-top" alt="Pasionaria Roja">
+          <img title="Passiflora Caerulea" src="./Pasionaria.jpg" class="card-img-top" alt="Passiflora Caerulea">
           <div class="card-body">
             <h3>Passiflora Caerulea</h3>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -76,7 +107,7 @@
         </div> 
 
         <div class="card">
-          <img class="img-fluid" src="./Aristolochia.jpg" class="card-img-top" alt="Aristolochia Elegans">
+          <img title="Aristolochia Elegans" src="./Aristolochia.jpg" class="card-img-top" alt="Aristolochia Elegans">
           <div class="card-body">
             <h3>Aristolochia Elegans</h3>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -85,7 +116,7 @@
         </div> 
 
         <div class="card">
-          <img src="./Ceibo.png" class="card-img-top" alt="Ceibo">
+          <img title="Erythrina crista-galli" src="./Ceibo.png" class="card-img-top" alt="Erythrina crista-galli">
           <div class="card-body">
             <h3>Erythrina crista-galli</h3>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -94,7 +125,7 @@
         </div> 
 
         <div class="card">
-          <img src="./Salvia.jpg" class="card-img-top" alt="Salvia">
+          <img title="Salvia Guaranitica" src="./Salvia.jpg" class="card-img-top" alt="Salvia">
           <div class="card-body">
           <h3>Salvia Guaranitica</h3>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -103,7 +134,7 @@
         </div> 
 
         <div class="card">
-          <img src="./Physalis.jpg" class="card-img-top" alt="Physalis">
+          <img title="Physalis Peruviana" src="./Physalis.jpg" class="card-img-top" alt="Physalis">
           <div class="card-body">
           <h3>Physalis Peruviana</h3>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
