@@ -104,7 +104,7 @@ header label i {
     margin: 30px;
 }
 
-/* MAIN */
+/* MAIN: CAROUSEL Y NOSOTROS */
 
 .carousel {
     max-width: 50%;
@@ -241,6 +241,7 @@ header label i {
     bottom: 0;
     width: 100%;
     resize: none;
+    text-shadow: var(--textShadow);
 }
 
 .footerDiv {
@@ -278,6 +279,14 @@ header label i {
     margin: 5px;
 }
 
+.fa-facebook:hover {
+    color: rgb(2, 82, 255);
+}
+
+.fa-instagram:hover {
+    color: rgb(201, 74, 133);
+}
+
 .redes {
     display: flex;
     flex-direction: column;
@@ -292,6 +301,7 @@ header label i {
     display: grid;
     align-items: end;
     font-size: smaller;
+    margin-left: 5px;
 }
 
 .mapa {
@@ -302,9 +312,16 @@ header label i {
     display: block;
 }
 
+.botonMapa:hover {
+    color: var(--violeta);
+    cursor: pointer;
+}
+
 .checkboxMapa {
     display: none;
 }
+
+/* MEDIA QUERYS */
 
 @media (min-width: 800px){
     .nav-checkbox-label {
