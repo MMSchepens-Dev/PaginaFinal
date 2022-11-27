@@ -1,7 +1,8 @@
 
 :root {
     --violeta: rgba(91, 2, 233, 0.804);
-    --violetaDos: rgb(99, 30, 210);
+    --gris: rgba(31, 31, 31, 0.681);
+    --blanco: rgba(255, 255, 255, 0.842);
     --textShadow: 1px 1px 1px black;
 }
 
@@ -19,7 +20,7 @@ body {
 /* NAVEGADOR */
 
 h1 {
-    color: rgba(255, 255, 255, 0.856);
+    color: var(--blanco);
     margin: auto;
     text-shadow: var(--textShadow)
 }
@@ -116,6 +117,7 @@ header label i {
     text-shadow: var(--textShadow);
     font-size: 20px;
     top: -10px;
+    color: var(--blanco);
 }
 
 .carousel-img {
@@ -126,8 +128,8 @@ header label i {
 #nosotros {
     position: relative;
     top: 90px;
-    background: rgba(71, 74, 80, 0.734);
-    color:rgba(255, 255, 255, 0.842);
+    background: var(--gris);
+    color:var(--blanco);
     font-weight: 100;
     text-shadow: var(--textShadow);
     min-height: 150px;
@@ -148,10 +150,10 @@ header label i {
     justify-content: space-between;
     border-radius: 10px;
     padding: 20px;
-    background-color: rgba(71, 74, 80, 0.734);
+    background-color: var(--gris);
     font-size: 20px;
     text-shadow: var(--textShadow);
-    color:rgba(255, 255, 255, 0.842);
+    color:var(--blanco);
     max-width: 650px;
     min-height: 180px;
     margin: 0 auto 80px;
@@ -176,7 +178,7 @@ header label i {
 .fa-truck {
     position: relative;
     left: -5px;
-    color: black;
+    color: rgb(143, 142, 142);
 }
 
 .fa-tag {
@@ -204,11 +206,11 @@ header label i {
 }
 
 .card {
-    background-color: var(--violetaDos);
+    background-color: var(--violeta);
     outline: outset;
     outline-width: 3px;
-    outline-color: var(--violetaDos);
-    color: rgba(255, 255, 255, 0.897);
+    outline-color: var(--violeta);
+    color: var(--blanco);
     margin: 0 10px;
 }
 
@@ -245,7 +247,7 @@ header label i {
 }
 
 .footerDiv {
-    background-color: rgba(31, 31, 31, 0.681);
+    background-color: var(--gris);
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -259,7 +261,7 @@ header label i {
 .contactList {
     display: flex;
     flex-direction: column;
-    color: rgb(255, 255, 255);
+    color: var(--blanco);
     list-style: none;
     justify-content: start;
     gap: 20px;
