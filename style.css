@@ -275,10 +275,12 @@ header label i {
 
 .contactoWhatsapp, .fa-at, .fa-location-dot {
     font-size: 27px;
+    font-weight: 600;
 }
 
 .spanDiv {
     font-size: 17px;
+    font-weight: 400;
 }
 
 .icono-redes {
