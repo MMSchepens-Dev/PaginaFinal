@@ -273,8 +273,12 @@ header label i {
     cursor: pointer;
 }
 
-.icono-contacto {
+.contactoWhatsapp, .fa-at, .fa-location-dot {
     font-size: 27px;
+}
+
+.spanDiv {
+    font-size: 17px;
 }
 
 .icono-redes {
@@ -328,6 +332,7 @@ header label i {
 .formulario {
     color: var(--blanco);
     text-shadow: var(--textShadow);
+    font-weight: 100;
 }
 
 .mailForm {
@@ -336,6 +341,7 @@ header label i {
     align-items: center;
     width: 100%;
     gap: 20px;
+    font-weight: 100;
 }
 
 .formBoxes{
@@ -345,18 +351,15 @@ header label i {
     width: 100%;
 }
 
-.botonSend {
+.botonEnviar {
     background-color: var(--violeta);
     color: whitesmoke;
-    padding: 20px;
+    padding: 15px;
+    margin: 5px;
 }
 
-.formBoxes::placeholder{
-    color: rgb(175, 168, 168);
-}
-
-.contactTitles{
-    color: var(--blanco);
+.formBoxes::placeholder {
+    color: var(--gris);
 }
 
 .mailForm {

@@ -171,42 +171,46 @@
         
           <div class="contacto">
             <ul class="contactList">
-                <li><h5>CONTACTO</h5></li>
+                <li>
+                  <h5>CONTACTO</h5>
+                </li>
 
-                <li><p><i class="icono-contacto fa-brands fa-whatsapp"></i> 15 12354321</p></li>
+                <li>
+                  <i class="contactoWhatsapp fa-brands fa-whatsapp"><span class="spanDiv"> 15 12345432</span></i>
+                </li>
 
                 <li>
                   <label class="botonEmail" for="abrirForm">
-                  <i class="icono-contacto fa-solid fa-at"></i> jardinnativo@gmail.com</label>
+                  <i class="fa-solid fa-at"></i><span class="spanDiv"> jardinnativo@gmail.com</span></label>
                 </li>
                 
                 <input class="checkboxMail" type="checkbox" id="abrirForm">
                 <div class="mailForm">
                 
-                  <div class="gridTwo">
-                    <h2 class="contactTitles">Queres enviarnos un e-mail?</h2>
+                  
+                    <h2>Querés enviarnos un mensaje?</h2>
           
                     <form action="https://formspree.io/f/mrgdvozz" method="post"></form>
-                      <label class="fw-bold" for="NAME">Como te llamas?</label>
+                      <label for="NAME">Como te llamas?</label>
                       <input class="formBoxes" type="text" name="NOMBRE" placeholder="Tu Nombre">
           
                     <form action="https://formspree.io/f/mrgdvozz" method="post"></form>
-                      <label class="fw-bold" for="E-MAIL">Tu direccion de e-mail</label>
+                      <label for="E-MAIL">Tu direccion de e-mail</label>
                       <input class="formBoxes" type="text" name="EMAIL" placeholder="ejemplo@email.com">
           
                     <form action="https://formspree.io/f/mrgdvozz" method="post"></form>
-                      <label class="fw-bold" for="MESSAGE">Como podemos ayudarte?</label>
+                      <label for="MESSAGE">Como podemos ayudarte?</label>
                       <textarea class="formBoxes" name="Mensaje" placeholder="Tu mensaje..."></textarea>
           
-                      <button class="botonSend" type="sumbmit" value="Enviar">
+                      <button class="botonEnviar" type="sumbmit" value="Enviar">
                         Enviar
                         <i class="fa-solid fa-arrow-right"></i>
                       </button>
-                  </div>
+                  
                 </div>
 
                 <li title="Ver en mapa">
-                  <label class="botonMapa" for="toggle"><i class="icono-contacto fa-solid fa-location-dot"></i> Calle Verdadera 321</label>
+                  <label class="botonMapa" for="toggle"><i class="fa-solid fa-location-dot"></i><span class="spanDiv" > Calle Verdadera 321</span></label>
                 </li>
 
                 <input class="checkboxMapa" type="checkbox" id="toggle">
